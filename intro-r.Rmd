@@ -1,4 +1,4 @@
-##allows you to write in plain english
+
 ---
 
 title: "Introduction for students new to R and RStudio"
@@ -370,17 +370,6 @@ how diamonds are valued and what is interesting about them.
 Now, with your partner, play with mutate and piping and create a plot of interest to you. 
 </div>
 
-```{r plot-of-something-interesting}
-# type your code for the Exercise here, and Knit
-  mutate(Q=depth + table)
-```
-
-```{r plot-of-Q-vs-carat}
-ggplot(data = diamonds, aes(x = Q, y = carat)) +
-  geom_line() +
-  geom_point()
-```
-
 Finally, in addition to simple mathematical operators like subtraction and 
 division, you can ask R to make logical comparisons like greater than, `>`, less than,
 `<`, and equality, `==`. For example, we can ask if the x dimension is greater than 
@@ -459,3 +448,4 @@ Whatever you do, please don't post your assigned questions onto paid answer-shar
 <div id="license">
 This is a derivative of an [OpenIntro](https://www.openintro.org/stat/labs.php) lab, and is released under a [Attribution-NonCommercial-ShareAlike 3.0 United States](https://creativecommons.org/licenses/by-nc-sa/3.0/us/) license.
 </div>
+
